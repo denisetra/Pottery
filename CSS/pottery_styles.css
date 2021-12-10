@@ -1,0 +1,99 @@
+
+body {
+  margin: 20;
+  background-color: black;
+}
+
+hr {
+  border-top: 10px dotted red;
+  margin: -2% 25% 5% 25%;
+  border-bottom: 0px black;
+
+
+}
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.6rem;
+  text-align: center;
+  margin: 10% auto 5% auto;
+  color: white;
+}
+
+h2 {
+  font-family: 'Sacramento', cursive;
+  font-size: 3.6rem;
+  text-align: center;
+  margin: auto auto 25px auto;
+}
+
+p {
+  line-height: 20px;
+  color: white;
+  font-size: 1.2rem;
+
+}
+
+
+
+/**************************** Tag selectors ***********************************/
+td {
+  border: 1px solid black;
+  align-items:center;
+  width: 33%;
+}
+
+
+/****************************** Class selectors*******************************/
+.One {
+  margin: auto 10% auto 10%;
+}
+
+.show_me, th {
+  border: 1px solid black;
+}
+.captions {
+  font-size: 1rem;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+
+}
+.thumbnail1 {
+  height: 70%;
+  width: 70%;
+  align-items: center;
+  margin: 4% auto 4% 15%;
+}
+
+.thumbnail2 {
+  height: 70%;
+  width: 70%;
+  align-items: center;
+  margin: 4% auto 4% 15%;
+}
+.thumbnail3 {
+  height: 70%;
+  width: 70%;
+  align-items: center;
+  margin: 4% auto 4% 15%;
+}
+
+.thumbnail4 {
+  height: 70%;
+  width: 70%;
+  align-items: center;
+  margin: 4% auto 4% 15%;
+}
+
+.thumbnail5 {
+  height: 70%;
+  width: 70%;
+  align-items: center;
+  margin: 4% auto 4% 15%;
+}
+.thumbnail6 {
+  height: 70%;
+  width: 70%;
+  align-items: center;
+  margin: 4% auto 4% 15%;
+}
