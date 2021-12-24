@@ -29,15 +29,19 @@ hr {
 }
 
 p {
-  line-height: 20px;
+  position: absolute;
+  line-height: 1.2rem;
   color: white;
   font-size: 1.2rem;
-  margin: 3% 20% auto 20%;
+  margin: 20% 20% auto 20%;
+  top: 40%;
 }
 
 a:link {
   color:yellow;
-  margin: auto auto auto 40%;
+  position: absolute;
+  top: 20%;
+  left: 42%;
 }
 
 a:visited {
@@ -46,27 +50,29 @@ a:visited {
 }
 /**************************** Tag selectors ***********************************/
 .data {
-  margin-left: 25%;
-  margin-right: auto;
+  position: absolute;
   font-family: 'Merriweather', serif;
   font-weight: bold;
   font-size: 1.5rem;
   border-collapse: separate;
   border-spacing: 20px 0;
   color: white;
-  padding-bottom: 2%;
+  padding-bottom: 4%;
+  left: 30%;
+  top: 35%;
 }
 
 .data2 {
-  margin-left: 29%;
-  margin-right: auto;
+  position: absolute;
   font-family: 'Merriweather', serif;
   font-weight: bold;
   font-size: 1.2rem;
   border-collapse: separate;
   border-spacing: 20px 0;
   color: white;
-  padding-bottom: 2%;
+  padding-bottom: 4%;
+  left: 30%;
+  top: 40%;
 }
 
 
@@ -80,18 +86,18 @@ a:visited {
 
 .completed_item {
   position: absolute;
-  height:260px;
-  width: 180px;
-  left: 40px;
-  top: 100px;
+  height:40%;
+  width: 20%;
+  left: 5%;
+  top: 35%;
 }
 
 .pre-glazing {
   position: absolute;
-  height:260px;
-  width: 180px;
-  right: 80px;
-  top: 100px;
+  height:40%;
+  width: 20%;
+  right: 10%;
+  top: 35%;
 }
 .long_width_1 {
   position: absolute;
@@ -108,4 +114,13 @@ a:visited {
   width: 240px;
   left: 70%;
   top: 40%;
+}
+
+.other_pictures {
+  position: absolute;
+  height:40%;
+  width: 20%;
+  left: 40%;
+  top: 100%;
+
 }
